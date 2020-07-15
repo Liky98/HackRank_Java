@@ -1,0 +1,30 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+
+
+        Scanner scan = new Scanner(System.in);
+
+        int i = 1;
+
+        while(scan.hasNext()){
+            System.out.println(i+ " "+ scan.nextLine());
+            i++;
+        }
+        //scan.hasNext()는 다음신호가 있을때까지 무한반복임. 아니면 값을 넣어주면 True를 반환하기도함.
+
+        scan.close();
+        //scan.close()는 스캔을 그만두는것.
+
+
+
+
+    }
+}
+
